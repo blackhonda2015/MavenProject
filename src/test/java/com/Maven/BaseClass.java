@@ -13,9 +13,9 @@ public class BaseClass {
 	WebDriver driver;
 	@Test
 	public void setUp() {
-//	System.setProperty("webdriver.chrome.driver", "src/Drivers/chromedriver.exe");
-//	driver = new ChromeDriver();
-		driver = new HtmlUnitDriver();
+	System.setProperty("webdriver.chrome.driver", "src/Drivers/chromedriver.exe");
+	driver = new ChromeDriver();
+//		driver = new HtmlUnitDriver();
 		//driver.manage().window().fullscreen();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

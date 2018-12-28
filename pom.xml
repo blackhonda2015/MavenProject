@@ -26,6 +26,8 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src\test\resources\base.xml</suiteXmlFile>
+                        <suiteXmlFile>src\test\resources\Maven.xml</suiteXmlFile>
+                        
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
